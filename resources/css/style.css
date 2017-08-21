@@ -2,7 +2,7 @@ html {
 	display: block;
 	font-size: 16px;
 	line-height: 1.4;
-	font-family: Helvetica;
+	font-family: "Droid" serif;
 }
 
 html a {
@@ -46,6 +46,17 @@ nav img {
 	color: black;
 }
 
+.sign-in {
+	border: 1px #000099 solid;
+	padding: 1rem;
+	border-radius: 1rem;
+	background-color: midnightblue;
+}
+
+.sign-in:hover {
+	background-color: firebrick;
+	transition: background-color 1s;
+}
 .light span {
 	color: #FAEBD7;
 }
@@ -172,6 +183,11 @@ h3 {
 	text-decoration: none;
 	width: 70%;
 	border: 1px #000099 solid;
+}
+
+.button:hover {
+	background-color: firebrick;
+	transition: background-color 1s;
 }
 
 .image-container img {
@@ -317,6 +333,11 @@ h3 {
 	max-width: 100%;
 }
 
+.card:hover {
+	box-shadow: 1rem 1rem midnightblue;
+	transition: box-shadow 1s;
+}
+
 .course-container img {
 	width: 100%;
 	height: auto;
@@ -333,6 +354,8 @@ h3 {
 	padding: 1rem 0 0.5rem 1rem;
 	font-weight: bold;
 	color: #000099;
+	font-family: "Abril Fatface";
+	letter-spacing: 0.1rem;
 }
 
 .course-info {
