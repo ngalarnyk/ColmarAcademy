@@ -5,10 +5,21 @@ html {
 	font-family: Helvetica;
 }
 
+html a {
+	text-decoration: none;
+	color: #6699ff;
+}
+
+/*div {
+	border: 1px solid black;
+}*/
+
 .container {
 	width: 100%;
 	margin: auto;
 }
+
+/*Header*/
 
 nav div {
 	display: flex;
@@ -18,11 +29,23 @@ nav div {
 nav img {
 	margin-left: 1.5rem;
 	margin-right: 0.2rem;
-	height: 2rem;
+	height: 3rem;
+}
+
+.logo a {
+	text-decoration: none;
 }
 
 .dark {
 	color: black;
+}
+
+.light span {
+	color: #FAEBD7;
+}
+
+.capital {
+	font-size: 2rem;
 }
 
 header {
@@ -30,12 +53,15 @@ header {
 }
 
 nav {
+	position: fixed;
 	display: flex;
-	background-color: #be2125;
+	background-color: #6699ff;
 	color: #FAEBD7;
 	align-items: center;
 	justify-content: space-between;
 	height: 4rem;
+	border-bottom: 2px #000099 solid;
+	z-index: 1;
 }
 
 ul {
@@ -46,7 +72,210 @@ ul li {
 	display: inline;
 	padding: 0 1rem;
 }
-/*Header*/
+
+ul a {
+	text-decoration: none;
+	color: #FAEBD7
+}
+
+/*Banner*/
+
+/*.main-container {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}*/
+
+.banner {
+	padding-top: 4rem;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: #e6f3ff;
+}
+
+section {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.image-container {
+	max-width: 60%;
+	padding: 2rem 1.5rem;
+}
+
+.banner aside {
+	display: flex;
+}
+
+aside {
+	max-width: 40%;
+	padding: 1rem 0;
+}
+
+.banner .headline {
+	padding-left: 1.5rem;
+}
+
+.headline {
+	display: flex;
+	padding: 1rem;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.banner h1 {
+	padding-bottom: 1rem;
+	width: 70%;
+	line-height: 1.2;
+}
+
+.headline h3 {
+	width: 60%;
+	line-height: 1.2;
+	font-size: 1.4rem;
+	color: #ff3333;
+}
+
+h1 {
+	font-size: 2rem;
+	color: #000099;
+}
+
+.bold {
+	font-weight: bold;
+	font-size: 3rem;
+}
+
+.banner h3 {
+	padding: 1rem 0 1.5rem 0;
+}
+
+h3 {
+	font-size: 1.1rem;
+}
+
+.button {
+	color: white;
+	background-color: #6699ff;
+	text-align: center;
+	padding: 0.5em 1.5rem;
+	border-radius: 0.6rem;
+	font-size: 1.2rem;
+	text-decoration: none;
+	width: 70%;
+	border: 1px #000099 solid;
+}
+
+.image-container img {
+	height: 45rem;
+}
+
+/*Practice-Area*/
+
+.practice-container {
+	display: flex;
+	position: relative;
+	width: 100%;
+	background-color: #ffb3b3;
+}
+
+.practice-content {
+	display: flex;
+	padding: 2rem 0 2rem 1.5rem;
+	color: black;
+}
+
+.left-box {
+	margin-right: 1.5rem;
+	width: 60%;
+}
+
+.emanuel {
+	margin-bottom: 2rem;
+}
+
+.emanuel img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #000099;
+}
+
+.left-box h1 {
+	font-weight: bold;
+	font-size: 2rem;
+	margin-bottom: 1.5rem;
+}
+
+.left-box p {
+	font-weight: 70;
+	margin-bottom: 2rem;
+	font-size: 1.2rem;
+	max-width: 90%;
+}
+
+.left-box span {
+	font-weight: bold;
+	font-size: 1rem;
+}
+
+.right-box {
+	display: flex;
+	justify-content: center;
+	width: 40%;
+	flex-direction: column;
+	height: auto;
+	align-items: center;
+}
+
+.info-box {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-content: center;
+}
+
+.desktop-image {
+	margin-bottom: 2rem;
+}
+
+.desktop-image img {
+	display: flex;
+	max-width: 86%;
+	height: auto;
+	border: 1px solid #000099;
+	justify-content: center;
+	margin-left: 1rem;
+
+}
+
+.text-box h2 {
+	font-size: 1.2rem;
+	margin-bottom: 0.5rem;
+}
+
+.text-box span {
+	font-size: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.text-box {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	margin: 0rem 0rem 3rem 2rem;
+	text-align: left;
+	line-height: 1;
+	justify-content: center;
+}
+
+.practice-container h2 {
+	font-weight: bold;
+}
+
+/*Footer*/
 
 
 
@@ -55,6 +284,14 @@ ul li {
 /*Nav Bar*/
 @media only screen and (min-width: 1024px) {
 .mobile-menu {
+	display: none;
+}
+
+.mobile-image {
+	display: none;
+}
+
+#special {
 	display: none;
 }
 }
