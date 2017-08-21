@@ -1,0 +1,60 @@
+html {
+	display: block;
+	font-size: 16px;
+	line-height: 1.4;
+	font-family: Helvetica;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+nav div {
+	display: flex;
+	align-items: center;
+}
+
+nav img {
+	margin-left: 1.5rem;
+	margin-right: 0.2rem;
+	height: 2rem;
+}
+
+.dark {
+	color: black;
+}
+
+header {
+	display: block;
+}
+
+nav {
+	display: flex;
+	background-color: #be2125;
+	color: #FAEBD7;
+	align-items: center;
+	justify-content: space-between;
+	height: 4rem;
+}
+
+ul {
+	margin-right: 1.5rem;
+}
+
+ul li {
+	display: inline;
+	padding: 0 1rem;
+}
+/*Header*/
+
+
+
+/*Media Queries*/
+
+/*Nav Bar*/
+@media only screen and (min-width: 1024px) {
+.mobile-menu {
+	display: none;
+}
+}
