@@ -292,6 +292,21 @@ h3 {
 	justify-content: center;
 }
 
+.text-box a {
+	display: flex;
+	border: 1px solid midnightblue;
+	justify-content: center;
+	padding: 1rem 0;
+	color: white;
+	background-color: #6699ff;
+	border-radius: 1rem;
+}
+
+.text-box a:hover {
+	background-color: firebrick;
+	transition: background-color 1s;
+}
+
 .practice-container h2 {
 	font-weight: bold;
 }
@@ -334,7 +349,7 @@ h3 {
 }
 
 .card:hover {
-	box-shadow: 1rem 1rem midnightblue;
+	box-shadow: 0.5rem 0.5rem midnightblue;
 	transition: box-shadow 1s;
 }
 
@@ -438,8 +453,28 @@ p.switch {
 }
 /*Footer*/
 
+footer {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding-left: 1.5rem;
+	padding-top: 1rem;
+	border-top: 1px solid grey;
+	height: 4rem;
+	background-color: #e6f3ff;
+	color: midnightblue;
+}
 
+.copyright {
+	display: flex;
+	align-items: center;
+}
 
+footer a {
+	padding-right: 1.5rem;
+	color: midnightblue;
+}
 /*Media Queries*/
 
 /*Nav Bar*/
