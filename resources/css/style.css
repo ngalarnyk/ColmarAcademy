@@ -19,6 +19,12 @@ html a {
 	margin: auto;
 }
 
+.upper {
+	text-transform: uppercase;
+	color: black;
+	padding: 0.5rem 0 0.5rem 1rem;
+}
+
 /*Header*/
 
 nav div {
@@ -178,7 +184,7 @@ h3 {
 	display: flex;
 	position: relative;
 	width: 100%;
-	background-color: #ffb3b3;
+	background-color: #FAEBD7;
 }
 
 .practice-content {
@@ -247,7 +253,6 @@ h3 {
 	height: auto;
 	border: 1px solid #000099;
 	justify-content: center;
-	margin-left: 1rem;
 
 }
 
@@ -273,6 +278,69 @@ h3 {
 
 .practice-container h2 {
 	font-weight: bold;
+}
+
+/*Start Learning*/ 
+
+.courses {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 2rem;
+	background-color: #e6f3ff;
+}
+
+.courses h2 {
+	padding-bottom: 1rem;
+	font-weight: bold;
+	font-size: 2rem;
+	color: #000099;
+}
+
+.course-container {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 4.5rem 2rem 4.5rem;
+}
+
+.course {
+	display: flex;
+	flex-direction: column;
+	max-height: 50%;
+	background-color: white;
+	margin: 1rem;
+	flex: 1 1 29%;
+}
+
+.card {
+	max-width: 100%;
+}
+
+.course-container img {
+	width: 100%;
+	height: auto;
+}
+
+.course-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 1rem;
+}
+
+.course-info h3 {
+	padding: 1rem 0 0.5rem 1rem;
+	font-weight: bold;
+	color: grey;
+}
+
+.course-info {
+	padding-left: 1rem;
+}
+
+p.switch {
+	color: grey;
+	padding: 0 0 1.5rem 1rem;
 }
 
 /*Footer*/
